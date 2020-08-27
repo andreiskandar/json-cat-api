@@ -1,15 +1,19 @@
 {
-  "name": "json_the_cat",
-  "version": "1.0.0",
-  "description": "",
-  "main": "breedFetcher.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "request": "^2.88.2"
-  }
+	"name": "json_the_cat",
+	"version": "1.0.0",
+	"description": "",
+	"main": "breedFetcher.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^8.1.2"
+	}
 }
